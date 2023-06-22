@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuItemLink"
+        android:icon="@drawable/baseline_public_24"
+        android:title="Link"
+        android:orderInCategory="2"
+        app:iconTint="@color/white"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuItemFavourite"
+        android:icon="@drawable/round_favorite_border_24"
+        android:title="Favourite"
+        android:orderInCategory="1"
+        app:iconTint="@color/white"
+        app:showAsAction="ifRoom" />
+
+</menu>
