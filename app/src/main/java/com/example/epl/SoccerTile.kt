@@ -1,7 +1,5 @@
 package com.example.epl
 
-import java.io.Serializable
-
 data class SoccerTile(
     val id: String = "",
     val title: String = "",
@@ -12,4 +10,4 @@ data class SoccerTile(
     val headerImageUrl: String? = null,
     val teamUrl: String = "",
     var isFavourite: Boolean = false
-): Serializable
+)

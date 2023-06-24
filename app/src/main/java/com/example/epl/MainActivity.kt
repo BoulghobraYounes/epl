@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity(), SoccerTileInterface {
             setCustomAnimations(
                 com.google.android.material.R.anim.m3_motion_fade_enter,
                 com.google.android.material.R.anim.m3_motion_fade_exit,
-                android.R.anim.fade_in,
-                android.R.anim.fade_out
+                com.google.android.material.R.anim.m3_motion_fade_enter,
+                com.google.android.material.R.anim.m3_motion_fade_exit
             )
 
             replace(R.id.fragmentContainerView, DetailFragment().apply {
